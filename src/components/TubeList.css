@@ -21,8 +21,14 @@
 }
 
 .tube-list{
-  border: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   padding: 10px;
+  background-color: #ffffff;
+}
+
+.tfl-row:nth-last-child(2) .tube-list,.tfl-row:nth-last-child(1) .tube-list{
+  border-bottom: 1px solid #ccc;
 }
 
 .tube-status{
